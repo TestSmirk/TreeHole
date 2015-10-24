@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="129dp"
+        android:layout_height="wrap_content" >
+
+        <com.lee.tree.view.Line
+            android:id="@+id/line1"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_below="@+id/et_EditName_text" >
+        </com.lee.tree.view.Line>
+        <EditText
+            android:id="@+id/et_EditName_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ems="6" >
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_EditName_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:background="@drawable/bt_bg_white"
+        android:text="提交"
+        android:textColor="@color/green" />
+
+</LinearLayout>

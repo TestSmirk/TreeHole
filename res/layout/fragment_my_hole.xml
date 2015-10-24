@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyHoleFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <zrc.widget.ZrcListView
+        android:id="@+id/myhole_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null" 
+        android:listSelector="@android:color/transparent"  >
+    </zrc.widget.ZrcListView>
+
+</FrameLayout>

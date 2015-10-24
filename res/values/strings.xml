@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">心扉</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">树洞</string>
+    <string name="title_activity_login">登录</string>
+    <string name="title_activity_regist">注册</string>
+    <string name="toast_error_username_null">用户名不能为空哦</string>
+    <string name="toast_error_password_null">亲 密码忘了写了</string>
+    <string name="toast_error_comfirm_password">两次密码不一致</string>
+    <string name="network_tips">亲:进入森林要先开网哦~</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_edit">编辑</string>
+    <string name="title_activity_settings">设置</string>
+
+</resources>

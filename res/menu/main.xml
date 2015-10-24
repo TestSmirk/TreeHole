@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  
+  <item
+        android:id="@+id/more"
+        android:title="more"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/menu_seting">
+        <menu >
+            <item android:id="@+id/settings" android:title="设置"/>
+            <item android:id="@+id/about" android:title="树洞时光"/>
+        </menu>
+       </item>
+       
+</menu>
